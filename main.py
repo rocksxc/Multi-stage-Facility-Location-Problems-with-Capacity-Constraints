@@ -160,7 +160,7 @@ def ec():
         locations=X.get().split(',')
         arrival=R.get().split(',')
         c=int(C.get().split(',')[0])
-        draw_facility(ec_window,cv,locations[int(k.get())//2*c-1])
+        draw_facility(ec_window,cv,locations[int(k.get())//2*c])
         initalize()
 
     def initalize():
